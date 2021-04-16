@@ -1,0 +1,131 @@
+Enter the regular expression :
+a+ba
+Examples for this regular expression are :
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaba
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+aaba
+accepted 
+-------------------------------------
+Enter the regular expression :
+a*|b
+Examples for this regular expression are :
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+b
+accepted 
+---------------------------------------
+Enter the regular expression :
+a*|b*
+Examples for this regular expression are :
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+aaa
+accepted 
+-------------------------------------------
+Enter the regular expression :
+ab*
+Examples for this regular expression are :
+ abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+a
+accepted 
+---------------------------------------------------------
+Enter the regular expression :
+(ab)*
+Examples for this regular expression are :
+ abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+a
+not accepted 
+-----------------------------------------------------------
+Enter the regular expression :
+(a|b)*
+Examples for this regular expression are :
+ ab
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+abab
+accepted 
+-------------------------------------------------------------
+Enter the regular expression :
+abb*
+Examples for this regular expression are :
+ abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+ab
+accepted 
+-------------------------------------------------------------
+Enter the regular expression :
+a*b*
+Examples for this regular expression are :
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbb
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+aba
+not accepted 
+---------------------------------------------------------------
+Enter the regular expression :
+a(ba)*b
+Examples for this regular expression are :
+ ababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+ababab
+accepted 
+-------------------------------------------------------------------
+Enter the regular expression :
+(b|aaa)*
+Examples for this regular expression are :
+ aaabbaaaaaabbbaaaaaaaaabaaaaaabbaaabbaaaaaabbaaabaaaaaaaaabbbbaaaaaaaaabbbaaabaaaaaaaaaaaabaaaaaabaaaaaaaaabbaaaaaabaaaaaabbaaabaaaaaaaaaaaabbbbaaabbaaaaaaaaaaaaaaaaaaaaaaaabaaabaaabaaabbaaa
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+aaaaaa
+accepted 
+-----------------------------------------------------------------------
+Enter the regular expression :
+aba+bab
+Examples for this regular expression are :
+ abaaaaaaaaaabab
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+abaaabab
+accepted 
